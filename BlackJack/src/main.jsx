@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './APP'
+
 import './Index.css'
+import App from './APP'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <App />
+  <App/>
 )
