@@ -7,7 +7,7 @@
 
 .rectangulo{
     background-color: rgba(0, 73, 39, 0.945);
-    height: 800px;
+    height: 700px;
     width: 1500px;
     border-radius: 30px;
     align-items: center;
@@ -15,9 +15,12 @@
   
 }
 .Btn{
+    
+    margin-left: -50%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1000px;
+    
 }
 .Btn-pedir{
     background-color: rgb(255, 217, 0);
@@ -26,7 +29,6 @@
     border-radius: 999px;
     font-weight: bold;
     padding: 10px 20px;
-    margin-left: 15%;
     cursor: pointer;
 }
 .Btn-pedir:hover{
@@ -40,17 +42,32 @@
     border-radius: 999px;
     font-weight: bold;
     padding: 10px 20px;
-    margin-right: 15%;
     cursor: pointer;
 }
+
 .Btn-plantarse:hover{
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
+
+.Btn-diler{
+    background-color: rgb(1, 185, 10);
+    color: white;
+    border: 0;
+    border-radius: 999px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Btn-diler:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
 .Diler{
     position: fixed;
     left: 47%;
-    bottom: 57%;
+    bottom: 50%;
     color: white;
     width: auto;
     height: auto;
@@ -60,43 +77,32 @@
 .Usuario{
     position: fixed;
     left: 46%;
-    top: 82%;
+    top: 60%;
     color: white;
     width: auto;
     height: auto;
     font-family: sans-serif;
 
 }
-.fichas{
-    position: fixed;
-    top: 79%;  
-    width: 32%;
+.card-diler{
+    margin-left: -65px;
+    display: flex;
+    width: 70px;
+    height: 120px;
 }
-.fichas-1{
-    margin-left: 7%;
-    width: 90px;
-    height: 90px;
+.card-jugador{
+    margin-left: -65px;
+    display: flex;
+    width: 70px;
+    height: 120px;
 }
-.fichas-5{
-    margin-left: 3%;
-    width: 90px;
-    height: 90px;
-}
-.fichas-10{
-    margin-left: 3%;
-    width: 90px;
-    height: 90px;
-}
-.fichas-20{
-    margin-left: 3%;
-    width: 90px;
-    height: 90px;
-}
-.fichas-50{
-    margin-left: 3%;
-    width: 90px;
-    height: 90px;
-}
-
+#contador{
+    margin-left: 75%;
+    color: white;
+    margin-top: 20%;
+    font-size: 30px;
     
-
+}
+.negra{
+    filter: brightness(0);
+}
